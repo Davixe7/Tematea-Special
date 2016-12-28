@@ -1,0 +1,80 @@
+/*   
+Theme Name: Tematea
+Theme URI: http://guilarte.esy.es
+Description: Te quiero mucho, Tea.
+Author: Matea & David
+Author URI: http://guilarte.esy.es
+Version: 1.0
+.
+General comments/License Statement if any.
+.
+*/
+
+body{
+	font-family: descarga, sans-serif;
+	color: white;
+	font-size: 18px;
+	background: url('img/sprinkles.png');
+}
+#main{
+	padding-bottom: 30px;
+}
+p{
+	font-family: 'Brandon Grotesque', sans-serif;
+}
+hr{
+	border: 1px solid lightgray;
+	width: 30%;
+}
+@font-face {
+    font-family: descarga;
+    src: url('fonts/geogrotesque semibold.woff');
+}
+h1{
+	font-weight: 400;
+	letter-spacing: -1px;
+}
+header{
+	background: #2f2f2f;
+	border-bottom: 1px solid lightgray;
+	height: 50px;
+}
+header * h3{
+	margin: 10px;
+}
+#wrap{
+	background: white;
+	margin-top: -50px;
+	color: #2f2f2f;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.1), -2px 0px 2px rgba(0,0,0,0.1);
+}
+#banner{
+	background: url('img/background2.png') no-repeat;
+	background-size: cover;
+	padding: 1px;
+	text-align: center;
+	border-bottom: 1px solid lightgray;
+	min-height: 300px;
+}
+#banner > h1{
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+	border: 2px solid white;
+	border-radius: 10px;
+	padding: 5px 15px;
+	margin: 80px auto;
+	display: inline-block;
+}
+.ribbon{
+	height: 50px;
+	background: #7b3129;
+	width: 105%;
+	margin-left: -2.5%;
+	margin-bottom: 30px;
+}
+footer{
+	height: 250px;
+	background: #393733;
+	margin-top: 30px;
+}
