@@ -11,9 +11,9 @@
   <body>
 	<header>
 		<div class="container">
-			<h3><?php bloginfo('name') ?></h3>
+			<a href="<?php bloginfo('url'); ?>"><h3><?php bloginfo('name') ?></h3></a>
 		</div>
 	</header>
 	<div id="banner">
-		<h1><?php the_title(); ?></h1>
+		<h1><?php ( !is_home() ) ? the_title() : bloginfo('name'); ?></h1>
 	</div>

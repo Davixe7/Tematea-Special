@@ -48,6 +48,20 @@ header * h3{
 	color: #2f2f2f;
 	box-shadow: 2px 2px 2px rgba(0,0,0,0.1), -2px 0px 2px rgba(0,0,0,0.1);
 }
+.post-thumbnail{
+	margin-bottom: 20px;
+	padding: 0px 20px;
+}
+.post-thumbnail > article{
+	border: 1px solid lightgray;
+	padding: 0px 10px 10px 10px;
+	position: relative;
+}
+.thumbnail-marker{
+	position: absolute;
+	top: -5px;
+	right: 20px;
+}
 #banner{
 	background: url('img/background2.png') no-repeat;
 	background-size: cover;
@@ -77,4 +91,15 @@ footer{
 	height: 250px;
 	background: #393733;
 	margin-top: 30px;
+}
+
+@media (min-width: 998px){
+	.row > .col-md-6:nth-child(2n+1) {
+		clear: left;
+	}
+}
+@media (max-width: 997px){
+	.row > .col-md-3.product:nth-child(1n+1) {
+		clear: left;
+	}
 }
